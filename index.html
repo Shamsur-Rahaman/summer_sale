@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+    <title>Summer Sale is Back</title>
+</head>
+<body>
+    <!-- banner section start -->
+    <section class="w-full bg-pink-100">
+        <div class="grid md:grid-cols-2 sm:grid-cols-1 gap-5 flex flex-row sm:flex-col-reverse text-center items-center sm:my-5">
+            <!--flex-col md:flex-row     ,flex-col md:flex-row sm:flex-row-reverse-->
+            <!--banner left side-->
+            <div class="md:p-10 sm:p-5 space-y-7">
+                <h1 class="text-xl font-medium">---SALE FEVER---</h1>
+                <h1 class="text-5xl font-bold">Purchase TK 200 or above & get <span class="text-rose-500">20% off</span></h1>
+                <p class="text-lg">Use Promo Code <button class="btn bg-rose-500 hover:bg-rose-700 text-white">SELL200</button></p>
+            </div>
+            <!--banner right side-->
+            <div class="sm:items-center">
+                <img src="images/Summer_1.png" alt="" class="md:w-10/12 sm:w-full">
+                <!-- <img class="w-16 md:w-32 lg:w-48" src="..." -->
+            </div>
+        </div>
+    </section>
+    <!-- banner section end -->
+    <!-- main section start -->
+    <main class="my-5 p-5 bg-gray-100">
+        <div class="container row">
+            <div class="col-md-9">
+                
+                <!-- kitchenware start -->
+                <div>
+                    <h1 class="text-5xl font-bold my-4">Kitchenware</h1>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <!-- card 1 start -->
+                            <div class="w-full max-w-md rounded-lg shadow bg-white p-5">
+                                <div class="card bg-base-100">
+                                    <figure class="bg-gray-100 p-5"><img src="images/kitchenWare_1.png" alt="Shoes" /></figure>
+                                    <div class="card-body flex items-center">
+                                        <h2 class="card-title" id="spoon_rack">Spoon Rack</h2>
+                                        <div class="flex items-center">
+                                            <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                            </div>
+                                        </div>
+                                        <span class="text-3xl font-bold text-gray-900 dark:text-white">$<span id="spoon_price">39</span></span>
+                                        <button type="button" class="btn btn-info text-black"
+                                        id="spoon_btn">Add to Purchase</button>
+                                    </div>
+                                  </div>
+                            </div>
+                            <!-- card 1 end -->
+                        </div>
+                        <div class="col-md-4">
+                            <!-- card 2 start -->
+                            <div class="w-full max-w-md rounded-lg shadow bg-white p-5">
+                                <div class="card bg-base-100">
+                                    <figure class="bg-gray-100 p-5"><img src="images/kitchenWare_2.png" alt="Shoes" /></figure>
+                                    <div class="card-body flex items-center">
+                                        <h2 class="card-title" id="chopping_title">Chopping Board</h2>
+                                        <div class="flex items-center">
+                                            <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                            </div>
+                                        </div>
+                                        <span class="text-3xl font-bold text-gray-900 dark:text-white">$<span id="chopping_price">85</span></span>
+                                        <button type="button" class="btn btn-info text-black" id="chopping_btn">Add to Purchase</button>
+                                    </div>
+                                  </div>
+                            </div>
+                            <!-- card 2 end -->
+                        </div>
+                        <div class="col-md-4">
+                            <!-- card 3 start -->
+                            <div class="w-full max-w-md rounded-lg shadow bg-white p-5">
+                                <div class="card bg-base-100">
+                                    <figure class="bg-gray-100 p-5"><img src="images/kitchenWare_3.png" alt="Shoes" /></figure>
+                                    <div class="card-body flex items-center">
+                                        <h2 class="card-title" id="cooker_title">Pressure Cooker</h2>
+                                        <div class="flex items-center">
+                                            <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                            </div>
+                                        </div>
+                                        <span class="text-3xl font-bold text-gray-900 dark:text-white">$<span id="cooker_price">75</span></span>
+                                        <button type="button" class="btn btn-info text-black" id="cooker_btn">Add to Purchase</button>
+                                    </div>
+                                  </div>
+                            </div>
+                            <!-- card 3 end -->
+                        </div>
+                    </div>
+                </div>
+                <!-- kitchenware end -->    
+
+                <!-- sportsware start -->
+                <div>
+                    <h1 class="text-5xl font-bold my-4">Sportsware</h1>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <!-- card 1 start -->
+                            <div class="w-full max-w-md rounded-lg shadow bg-white p-5">
+                                <div class="card bg-base-100">
+                                    <figure class="bg-gray-100 p-5"><img src="images/sportsWare_1.png" alt="Shoes" /></figure>
+                                    <div class="card-body flex items-center">
+                                        <h2 class="card-title">Cap</h2>
+                                        <div class="flex items-center">
+                                            <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                            </div>
+                                        </div>
+                                        <span class="text-3xl font-bold text-gray-900 dark:text-white">$<span>45</span></span>
+                                        <button type="button" class="btn btn-info text-black">Add to Purchase</button>
+                                    </div>
+                                  </div>
+                            </div>
+                            <!-- card 1 end -->
+                        </div>
+                        <div class="col-md-4">
+                            <!-- card 2 start -->
+                            <div class="w-full max-w-md rounded-lg shadow bg-white p-5">
+                                <div class="card bg-base-100">
+                                    <figure class="bg-gray-100 p-5"><img src="images/sportsWare_2.png" alt="Shoes" /></figure>
+                                    <div class="card-body flex items-center">
+                                        <h2 class="card-title">Swiming suit</h2>
+                                        <div class="flex items-center">
+                                            <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                            </div>
+                                        </div>
+                                        <span class="text-3xl font-bold text-gray-900 dark:text-white">$<span>99</span></span>
+                                        <button type="button" class="btn btn-info text-black">Add to Purchase</button>
+                                    </div>
+                                  </div>
+                            </div>
+                            <!-- card 2 end -->
+                        </div>
+                        <div class="col-md-4">
+                            <!-- card 3 start -->
+                            <div class="w-full max-w-md rounded-lg shadow bg-white p-5">
+                                <div class="card bg-base-100">
+                                    <figure class="bg-gray-100 p-5"><img src="images/sportsWare_3.png" alt="Shoes" /></figure>
+                                    <div class="card-body flex items-center">
+                                        <h2 class="card-title">Sneakers</h2>
+                                        <div class="flex items-center">
+                                            <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                            </div>
+                                        </div>
+                                        <span class="text-3xl font-bold text-gray-900 dark:text-white">$<span>55</span></span>
+                                        <button type="button" class="btn btn-info text-black">Add to Purchase</button>
+                                    </div>
+                                  </div>
+                            </div>
+                            <!-- card 3 end -->
+                        </div>
+                    </div>
+                </div>
+                <!-- sportsware end -->
+
+                <!-- furniture start -->
+                <div>
+                    <h1 class="text-5xl font-bold my-4">Furniture</h1>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <!-- card 1 start -->
+                            <div class="w-full max-w-md rounded-lg shadow bg-white p-5">
+                                <div class="card bg-base-100">
+                                    <figure class="bg-gray-100 p-5"><img src="images/furnitureWare_1.png" alt="Shoes" /></figure>
+                                    <div class="card-body flex items-center">
+                                        <h2 class="card-title">Sofa</h2>
+                                        <div class="flex items-center">
+                                            <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                            </div>
+                                        </div>
+                                        <span class="text-3xl font-bold text-gray-900 dark:text-white">$<span>89</span></span>
+                                        <button type="button" class="btn btn-info text-black">Add to Purchase</button>
+                                    </div>
+                                  </div>
+                            </div>
+                            <!-- card 1 end -->
+                        </div>
+                        <div class="col-md-4">
+                            <!-- card 2 start -->
+                            <div class="w-full max-w-md rounded-lg shadow bg-white p-5">
+                                <div class="card bg-base-100">
+                                    <figure class="bg-gray-100 p-5"><img src="images/furnitureWare_2.png" alt="Shoes" /></figure>
+                                    <div class="card-body flex items-center">
+                                        <h2 class="card-title">Chair</h2>
+                                        <div class="flex items-center">
+                                            <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                            </div>
+                                        </div>
+                                        <span class="text-3xl font-bold text-gray-900 dark:text-white">$<span>79</span></span>
+                                        <button type="button" class="btn btn-info text-black">Add to Purchase</button>
+                                    </div>
+                                  </div>
+                            </div>
+                            <!-- card 2 end -->
+                        </div>
+                        <div class="col-md-4">
+                            <!-- card 3 start -->
+                            <div class="w-full max-w-md rounded-lg shadow bg-white p-5">
+                                <div class="card bg-base-100">
+                                    <figure class="bg-gray-100 p-5"><img src="images/furnitureWare_3.png" alt="Shoes" /></figure>
+                                    <div class="card-body flex items-center">
+                                        <h2 class="card-title">Sofa Cum Bed</h2>
+                                        <div class="flex items-center">
+                                            <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                            </div>
+                                        </div>
+                                        <span class="text-3xl font-bold text-gray-900 dark:text-white">$<span>69</span></span>
+                                        <button type="button" class="btn btn-info text-black">Add to Purchase</button>
+                                    </div>
+                                  </div>
+                            </div>
+                            <!-- card 3 end -->
+                        </div>
+                    </div>
+                </div>
+                <!-- furniture end -->
+
+
+            </div>
+
+            <div class="col-md-3 my-5 py-5">
+                <div class="my-5 space-y-3 bg-white p-5">
+                    <h1 class="text-3xl font-medium">Have Coupon?</h1>
+                    <input type="text" name="" id="" class="p-3 border rounded-lg"><button type="submit" class="text-white bg-pink-400 p-3 border rounded-lg" disabled>Apply</button>
+                </div>
+                <div class="my-5 space-y-3 bg-white p-5">
+                    <div class="" id="addProductEntry">
+
+                    </div>
+                    <hr>
+                    <div>
+                        <p>Total Price : <span id="total_price_sec"></span></p>
+                        <p>Discount : <span id="discount_sec"></span></p>
+                        <p>Total : <span id="total_sec"></span></p>
+                    </div>
+                    <hr>
+                    <div class="flex items-center justify-center">
+                        <button class="bg-pink-400 text-white px-3 py-2 rounded-lg" disabled>Make Purchase</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </main>
+    <!-- main section end -->
+
+
+    <script src="js/spoon.js"></script>
+    <script src="js/chopping.js"></script>
+    <script src="js/calculatePrice.js"></script>
+    <script src="js/cooker.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+</body>
+</html>
